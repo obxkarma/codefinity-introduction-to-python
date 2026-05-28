@@ -19,3 +19,9 @@ if "oranges" in shelf:
     print("Oranges are at index:", orange_index)
 else: 
     print("Oranges are out of stock.")
+
+# Tuple operations example: Creating and using the tuple constructor
+seasonal_fruits = ("mango", "watermelon")
+new_fruits = ["kiwi", "strawberry"]
+all_fruits = seasonal_fruits + tuple(new_fruits)  # Converting list to tuple and concatenating
+print("All Fruits:", all_fruits)
